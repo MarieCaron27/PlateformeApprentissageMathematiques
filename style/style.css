@@ -1,0 +1,282 @@
+/* Body */
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+header
+{
+    background-color: palevioletred;
+    border-bottom: 5px solid black;
+}
+
+#navigation
+{
+    flex-direction: row!important;
+    padding-bottom: 1rem!important;
+    margin-bottom: 1.5rem!important;
+    align-items: center!important;
+    flex-direction: column!important;
+    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+    display: flex!important;
+    box-sizing: border-box;
+}
+
+#div 
+{
+    display: block;
+}
+
+#navigation h1
+{
+    text-align:center;
+}
+
+#navigation ul 
+{
+    list-style-type: none;
+}
+
+/* Titres */
+
+h1,h2,h3
+{
+    text-align: center;
+}
+
+/* Sign in form */
+
+#connexion
+{
+    margin-right: 400px;
+    margin-left: 400px;
+    border: solid thick black;
+    margin-top: 10px;
+}
+
+.form_login
+{
+    position:relative;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px;
+}
+
+.connexion input[type="text"] 
+{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    text-align: center;
+}
+
+.form_control 
+{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 3;
+    text-align: center;
+}
+
+.connexion input[type="sumbit"] 
+{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-width: fit-content;
+    text-align: center;
+}
+
+*, ::after, ::before 
+{
+    box-sizing: border-box;
+}
+
+/* Sign Up form */
+
+#inscription
+{
+    margin-right: 400px;
+    margin-left: 400px;
+    border: solid thick black;
+    margin-top: 10px;
+}
+
+.form_sign_up
+{
+    position:relative;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px;
+}
+
+.inscription input[type="text"] 
+{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-width: fit-content;
+    text-align: center;
+}
+
+.inscription input[type="sumbit"] 
+{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-width: fit-content;
+    text-align: center;
+}
+
+/* Math Application page : */
+
+.container 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.operationList 
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.operationList label 
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#errorOperationListItem 
+{
+    margin-top: 10px;
+}
+
+.number-input 
+{
+    margin-bottom: 20px;
+}
+
+.submit 
+{
+    padding: 10px 20px;
+}
+
+.quiz-section 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    padding: 20px;
+}
+
+.quiz-section h2 
+{
+    margin-bottom: 20px; 
+}
+
+.quiz-section button 
+{
+    margin-top: 20px;
+}
+
+.quiz-content 
+{
+    display: flex;
+}
+
+.questions-list 
+{
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.answers 
+{
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left; 
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-between;
+}
+
+/* Score page */
+
+.mesScores table 
+{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.mesScores th, .mesScores td 
+{
+    border: 1px solid black; 
+    padding: 10px;
+    text-align: center;
+}
+
+/* Error or not messages : */
+
+#errorLastNameSignUp,
+#errorFirstNameSignUp,
+#errorAgeSignUp,
+#errorUserCreated,
+#errorLastNameSignIn,
+#errorFirstNameSignIn,
+#errorUserSignedIn,
+#errorOperator,
+#errorFinalScore,
+#errorOperationListItem,
+#errorScorePage  
+{
+    color: red;
+}
+
+#userCreated,
+#userSignedIn 
+{
+    color: green;
+}
+
+/* Footer */
+
+#footer 
+{
+	clear: both;
+	margin: 10px;
+	border-top: 5px solid black;
+	background: palevioletred;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer p 
+{
+	margin: 0;
+	padding: 50px 0;
+	text-align: center;
+	font-size: smaller;
+	color: black;
+}
+
+#footer a 
+{
+	color: balck;
+}
